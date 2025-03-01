@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     
       public static void main(String[] args) {
-         int rocke = 0;
+         int rock = 0;
          int Paper = 1;
          int Scissor = 2;
          
@@ -16,7 +16,7 @@ public class Main {
         int computer = rnd.nextInt(3);
         
         if (user==0) {
-          System.out.println("Human choice rocke");
+          System.out.println("Human choice rock");
         }
         else if (user==1) {
           System.out.println("Human choice paper");
@@ -31,7 +31,7 @@ public class Main {
           System.out.println("invalid choice \n choose only under 0,1,2");
         }
         if (computer==0) {
-          System.out.println("computer choice is rocke");          
+          System.out.println("computer choice is rock");          
         }
         else if (computer==1) {
           System.out.println("computer choice is paper");
