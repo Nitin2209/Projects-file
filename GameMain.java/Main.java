@@ -1,44 +1,4 @@
 
-// import java.util.Random;
-// import java.util.Scanner;
-// public class Main {
-//     public static void main(String[] args) {
-         
-//         //  int rocke = 0
-//         //  int Paper = 1
-//         //  int Scissor = 2
-//             Scanner sc = new Scanner(System.in);
-//             int userinput = sc.nextInt();
-
-//             Random random = new Random();
-//              int computerinput = random.nextInt( 3);
-
-//              if (computerinput==userinput) {
-//                System.out.println("drow or no one wins or no one lose");
-              
-//              }
-//              else if (computerinput==0&& userinput==1 || computerinput==1&& userinput==2 || computerinput==2&& userinput==0) {
-//               System.out.println("Human wins");
-              
-//              }
-//              else {
-//               System.out.println("computerinput wins");
-//              }
-//              System.out.println("computer choice is" + computerinput);
-//              if (computerinput==0) {
-//               System.out.println("computer choice is rocke");
-//              }
-//              else if (computerinput==1) {
-//               System.out.println("computer choice is paper");
-//              }
-//               else{
-//                 System.out.println("computer choice is Scissor");
-//               }
-               
-//             }
-        
-//           }
-
 import java.util.Random;
 import java.util.Scanner;
 
