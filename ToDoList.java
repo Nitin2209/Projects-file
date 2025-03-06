@@ -13,11 +13,6 @@ class Task {
     void markDone() {
         this.isDone = true;
     }
-
-    @Override
-    public String toString() {
-        return (isDone ? "[✔]" : "[ ]") + " " + description;
-    }
 }
 
 public class ToDoList {
