@@ -12,7 +12,7 @@ class Bio extends SoftwareDeveloper {
 }
 
 class Skills extends SoftwareDeveloper {
-  languages  = ['Java'];
+  languages  = ['Python''Java''HTML''CSS'];
   databases  = ['MySQL'];
  
 }
