@@ -1,0 +1,46 @@
+print('''*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/________
+*******************************************************************************''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+choice1 = input("You're at a crossroad, Where do you want to go?\n\t Type "+ '"left" or "right"\n')
+
+
+
+if choice1 == "left":
+   choice2 = input("Now you've come to a lake. There is an island in the middle of the lake.\n Type "+ '"swim" to swim across. Type "wait" to wait for a boat\n\t Type "swim" or "wait"\n')
+
+   if choice2 == "wait":
+        choice3 = input("You arrive at the island unharmed.\nThere is house with 3 doors. One red, one blue and one yellow \n"'\t Type any one "Red" or "Blue" or "Yellow"\n')
+
+        if choice3 == "Red":
+         print("It,s a room full of fire. Game Over")
+        elif choice3 == "Blue":
+         print("You enter a room of beasts. Game Over")
+        elif choice3 == "Yellow":
+         print("You foundhte treasure. You Won!") 
+        else:
+         print ("You choose a door that dosen't exist. Game over")
+      
+   else:
+     print("You got attacked by angry trout. Game Over")
+
+else:
+    print("You fell in to a hole. Game Over")
